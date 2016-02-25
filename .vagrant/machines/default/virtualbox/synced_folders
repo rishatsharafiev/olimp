@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/olimp":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/olimp","hostpath":"/home/rs/dev/laravel/olimp","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/rs/dev/laravel/olimp","disabled":false,"__vagrantfile":true}}}
