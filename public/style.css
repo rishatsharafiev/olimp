@@ -90,6 +90,10 @@ tr td:first-child {
   display: inline-block;
 }
 
+.block {
+  display: block;
+}
+
 /**** layout ***/
 
 .wrapper {
@@ -182,12 +186,9 @@ tr td:first-child {
   padding-bottom: 0.5em;
 }
 
-.form_label {
-  display: inline-block;
-}
+.form_label {}
 
 .form_input {
-  display: inline-block;
   border: 1px solid #CCCCCC;
   line-height: 1.5em;
   height: 2em;
@@ -208,4 +209,26 @@ tr td:first-child {
 .form_input:focus {
   border: 1px solid #1DC7EA;
   outline: none;
+}
+
+.form_area {
+  border: 1px solid #CCCCCC;
+  line-height: 1.5em;
+  padding-left: 0.1em;
+  padding-top: 0.1em;
+  padding-right: 0.1em;
+  padding-bottom: 0.1em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
+}
+
+.form_area:focus {
+  border: 1px solid #1DC7EA;
+  outline: none;
+}
+
+.feedback-form {
+  width: 17em;
 }
